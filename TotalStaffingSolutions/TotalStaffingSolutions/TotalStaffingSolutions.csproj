@@ -1550,6 +1550,7 @@
     <Compile Include="Models\CustomerContact.cs">
       <DependentUpon>TSSModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\CustomizedModels.cs" />
     <Compile Include="Models\C__MigrationHistory.cs">
       <DependentUpon>TSSModel.tt</DependentUpon>
     </Compile>
@@ -1844,6 +1845,9 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
